@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../src/images/Untitled design.jpg'
+import logo from '../src/images/hemant.png'
 import {AiFillLinkedin,AiFillGithub, AiFillHtml5} from 'react-icons/ai'
 import {BiLogoCss3, BiLogoJavascript, BiLogoReact, BiLogoTailwindCss} from 'react-icons/bi'
 import {PiHandWavingFill} from 'react-icons/pi'

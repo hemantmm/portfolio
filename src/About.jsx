@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../src/images/Untitled design.jpg'
+import logo from '../src/images/hemant.png'
 
 function About() {
   return (
