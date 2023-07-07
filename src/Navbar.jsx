@@ -25,6 +25,9 @@ function Navbar() {
           <a href="#project">Projects</a>
         </li>
         <li>
+          <a href="https://github.com/oppia/oppia/pulls?q=is%3Apr+author%3A%40me+is%3Aclosed">Contributions</a>
+        </li>
+        <li>
           <a href="#contact">Contact</a>
         </li>
       </ul>
