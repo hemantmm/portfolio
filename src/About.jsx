@@ -1,5 +1,10 @@
 import React from 'react'
 import logo from '../src/images/hemant.png'
+// import logo1 from '../src/images/Untitled design.png'
+import logo1 from '../src/images/blogPostImage.png'
+import logo2 from '../src/images/developerImage.webp'
+import logo3 from '../src/images/working-emoji.png'
+import logo4 from '../src/images/developer.svg'
 
 function About() {
   return (
@@ -8,10 +13,10 @@ function About() {
         <div className="container">
             <div className="about-content">
                 <div className="img-side">
-                    <img src={logo} alt="" className='work-emoji' />
-                    <img src={logo} alt="" className='img-side__main-img' />
+                    <img src={logo3} alt="" className='work-emoji' />
+                    <img src={logo2} alt="" className='img-side__main-img' />
                     <span>
-                        <img src={logo} alt="" />
+                        <img src={logo4} alt="" />
                     </span>
                 </div>
                 <div className="text-side">

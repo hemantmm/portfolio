@@ -56,19 +56,19 @@ function Navbar() {
             <div className="logos">
               <ul>
                 <li>
-                  <AiFillHtml5 style={{color:'orangered'}} />
+                  <AiFillHtml5 style={{color:'orangered'}} title='HTML' />
                 </li>
                 <li>
-                  <BiLogoCss3 style={{color:'33A9DC'}} />
+                  <BiLogoCss3 style={{color:'33A9DC'}} title='CSS' />
                 </li>
                 <li>
-                  <BiLogoJavascript style={{color:'F7DF1E'}} />
+                  <BiLogoJavascript style={{color:'F7DF1E'}} title='JavaScript' />
                 </li>
                 <li>
-                  <BiLogoReact style={{color:'54C1DE'}} />
+                  <BiLogoReact style={{color:'54C1DE'}} title='React' />
                 </li>
                 <li>
-                  <BiLogoTailwindCss style={{color:'38BDF8'}} />
+                  <BiLogoTailwindCss style={{color:'38BDF8'}} title='TailWind CSS' />
                 </li>
               </ul>
             </div>

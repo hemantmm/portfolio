@@ -121,6 +121,12 @@ a:webkit-any-link
   margin-bottom: 14rem;
 }
 
+.logos ul
+{
+  position: relative;
+  right: 5rem;
+}
+
 .hero-text
 {
   display: flex;
@@ -128,7 +134,6 @@ a:webkit-any-link
   max-width: 50rem;
   position: relative;
   margin-bottom: 22rem;
-  /* margin-left: ; */
   left: 10rem;
 }
 
@@ -142,22 +147,11 @@ a:webkit-any-link
   width: 43rem;
 }
 
-/* .hero-text img
-{
-  height: 5rem;
-  position: absolute;
-  top: 1.3rem;
-  width: 6rem;
-} */
-
 .wavingHand
 {
-  /* height: 5rem; */
   position: absolute;
   margin-top: 3.2rem;
   right: 5rem;
-  /* background-color: yellow; */
-  /* color: red; */
   color: #DBA377;
 }
 
@@ -273,7 +267,7 @@ li
 {
   align-items: center;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1.2fr 1fr;
   justify-content: center;
 }
 
@@ -291,7 +285,7 @@ li
  {
   bottom: 35px;
   position: absolute;
-  right: 98px;
+  right: 80px;
   width: 6rem!important;
   z-index: 10;
 }
@@ -305,7 +299,7 @@ img
 .img-side__main-img 
 {
   border-radius: 1.7rem;
-  height: 35rem;
+  height: 30rem;
   width: 41rem;
 } 
 
@@ -314,17 +308,28 @@ img
   background-color: #fff;
   border-radius: 50%;
   bottom: -33px;
-  height: 19rem;
+  height: 13rem;
   position: absolute;
-  right: 33px;
-  width: 19rem;
+  left: 33rem;
+  width: 13rem;
+  /* background-color: red; */
 }
 
 .img-side span img 
 {
   -webkit-animation: rotate 9s linear infinite;
-  animation: rotate 9s linear infinite;
-  width: 19rem;
+  animation: rotation 9s infinite linear;
+
+  width: 13rem;
+}
+
+@keyframes rotation {
+  from{
+    transform: rotate(0deg);
+  }
+  to{
+    transform: rotate(359deg);
+  }
 }
 
 .text-side h3 
@@ -357,7 +362,6 @@ img
 .project
 {
   background-color: #f9f9f9;
-  /* padding: 15rem 0; */
 }
 
 .project-content
@@ -439,7 +443,6 @@ img
 {
   color: #2d2e32;
   font-size: 1.7rem;
-  /* margin-bottom: 20rem; */
   position: relative;
   top: 5rem;
   text-transform: uppercase;
@@ -496,6 +499,12 @@ img
   text-decoration: none;
   position: relative;
   bottom: 7rem;
+}
+
+.links a:hover
+{
+  transition-duration: 1s;
+  color: #147efb;
 }
 
 .reversed-proj
@@ -591,6 +600,11 @@ img
   text-decoration: none;
 }
 
+.contact__info a:hover
+{
+  color: #147efb;
+}
+
 footer
 {
   background-color: #2d2e32;
@@ -621,4 +635,9 @@ footer h3
 {
   color: #fff;
   font-size: 1.5rem;
+}
+
+.footerc__socials a:hover
+{
+  color: #147efb;
 }
