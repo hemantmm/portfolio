@@ -25,7 +25,7 @@ function About() {
                         <br />
                         based in India 📍
                     </h4>
-                    <p>As a Junior Front-End Developer, I possess an impressive arsenal of skills in HTML, CSS, JavaScript, React, and Tailwind. I excel in designing and maintaining responsive websites that offer a smooth user experience.</p>
+                    <p>As a Front-End Developer, I possess an impressive arsenal of skills in HTML, CSS, JavaScript, React, and Tailwind. I excel in designing and maintaining responsive websites that offer a smooth user experience.</p>
                 </div>
             </div>
         </div>

@@ -25,7 +25,7 @@ function Navbar() {
           <a href="#project">Projects</a>
         </li>
         <li>
-          <a href="https://github.com/oppia/oppia/pulls?q=is%3Apr+author%3A%40me+is%3Aclosed">Contributions</a>
+          <a href="https://github.com/oppia/oppia/issues?q=is%3Aissue+assignee%3Ahemantmm+is%3Aclosed">Contributions</a>
         </li>
         <li>
           <a href="#contact">Contact</a>
@@ -41,7 +41,7 @@ function Navbar() {
               <h1>Front-End Developer</h1>
               {/* <img src={logo} alt="Waving_hand" /> */}
               <PiHandWavingFill size={50} className='wavingHand' />
-              <p>Hi, I'm Hemant M. A passionate Front-end React Developer.</p>
+              <p>Hi, I'm Hemant M. A passionate Front-end Developer.</p>
               <span>
                 <a aria-label='linkedin' href="https://www.linkedin.com/in/hemant-mehta-97b40b220/">
                   <AiFillLinkedin />
